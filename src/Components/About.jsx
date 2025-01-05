@@ -12,7 +12,7 @@ const About = () => {
         <p className="text-xl mt-10 mb-4">
         Hi! I'm <b>Mayur Murarka.</b>
         <br/>
-        21 Years Old from Shegaon( Maharashtra ). I currently live in Amravati - Pursuing my Final year as an Computer Science Engineer from P.R.Pote Patil College of Engineering and Management, Amravati. Currently working as a freelancer . I am professionally trained as a Web Developer and Programmer. Also trying to keep hand-on programming from past 4 years and practicing Web Development from past 2 years.
+        23 Years Old from Shegaon( Maharashtra ). I currently live in Shegaon - Completed graduation as an Computer Science Engineer from P.R.Pote Patil College of Engineering and Management, Amravati. Currently working as a freelancer . I am professionally trained as a Full Stack Developer and Mern Stack Developer. Also trying to keep hand-on programming from past 4 years and practicing Web Development from past 2 years.
         </p>
         <br />
         <p className="text-xl">

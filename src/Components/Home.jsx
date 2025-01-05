@@ -8,7 +8,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Front Developer","Web Developer","Java Developer"], 
+      strings: ["Front Developer","Web Developer","Full Stack Developer","Mern Stack Developer"], 
       startDelay: 100,
       typeSpeed: 50,
       backSpeed: 10,
@@ -30,8 +30,8 @@ const Home = () => {
     <h2 className="text-4xl sm:text--7xl font-bold text-white">I'm a <span ref={el}></span></h2>
     <p className="text-gray-300 py-4 max-w-md">
     I'm <b>Mayur Murarka.</b>
-    Currently, I love to work on web application using technologies like
-    React, Tailwind, Bootstrap, Redux.
+    Currently, I love to work on Full Stack application using technologies like
+    React, Tailwind, Bootstrap, Node.js, Express.js, MongoDb,etc...
     </p>
 
     <div>

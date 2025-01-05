@@ -1,20 +1,16 @@
 import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import Redux from "../assets/Redux.png";
 import MySQL from "../assets/MySQL.png";
-import Java from "../assets/Java.png";
+import expressjs from "../assets/expressjs.png";
 import tailwind from "../assets/tailwind.png";
-import Bootstrap from"../assets/Bootstrap.png";
-import github from "../assets/github.png";
-import C from "../assets/C.png";
+import Bootstrap from "../assets/Bootstrap.png";
+import mongodb from "../assets/mongodb.png";
+import nextjs from "../assets/nextjs.jpg";
 import node from "../assets/node.png";
-
-
-
 
 const Experience = () => {
   const techs = [
@@ -50,7 +46,7 @@ const Experience = () => {
     },
     {
       id: 6,
-      src:Redux,
+      src: Redux,
       title: "Redux",
       style: "shadow-violet-500",
     },
@@ -62,9 +58,9 @@ const Experience = () => {
     },
     {
       id: 8,
-      src: Java,
-      title: "Java",
-      style: "shadow-orange-500",
+      src: expressjs,
+      title: "Express js",
+      style: "shadow-gray-500",
     },
     {
       id: 9,
@@ -74,24 +70,22 @@ const Experience = () => {
     },
     {
       id: 10,
-      src: C,
-      title: "C",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 11,
       src: node,
       title: "Node",
       style: "shadow-green-500",
     },
     {
-      id: 12,
-      src: github,
-      title: "Github",
+      id: 11,
+      src: nextjs,
+      title: "NextJs",
       style: "shadow-white",
     },
-   
-    
+    {
+      id: 12,
+      src: mongodb,
+      title: "MongoDb",
+      style: "shadow-green-500",
+    },
   ];
 
   return (

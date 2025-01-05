@@ -1,34 +1,35 @@
-import React from 'react';
-import Malicious_URL_Detection from "../assets/portfolio/Malicious_URL_Detection.png"
-import Hospital_Mangement_System from "../assets/portfolio/Hospital_Mangement_System.png"
-import ATM_Program  from "../assets/portfolio/ATM_Program.jpeg"
+import React from "react";
+import Baatacheet from "../assets/portfolio/Baatacheet.png";
+import MayurBlog_App from "../assets/portfolio/MayurBlog_App.png";
+import Mask from "../assets/portfolio/Malicious_URL_Detection.png";
 
 const Portfolio = () => {
-  const portfolios=[
+  const portfolios = [
     {
-      id:1,
-      src:Malicious_URL_Detection,
-      href: "https://github.com/Mayur-Murarka/Mask.git",
-      alt:"malicious url detection",
+      id: 1,
+      src: Mask,
+      href: "https://github.com/Mayur-Murarka/Mask",
+      alt: "Malicious_URL_Detection",
     },
     {
-      id:2,
-      src:Hospital_Mangement_System,
-      href:'https://github.com/Mayur-Murarka/Hospital-Management-System-master.git ',
-      alt:"hospital management system",
+      id: 2,
+      src: Baatacheet,
+      href: "https://github.com/Mayur-Murarka/Baatacheet",
+      alt: "Baatacheet",
     },
     {
-      id:3,
-      src:ATM_Program,
-      href:"https://github.com/Mayur-Murarka/ATM_Java_Project.git",
-      alt:"atm program",
+      id: 3,
+      src: MayurBlog_App,
+      href: "https://github.com/Mayur-Murarka/Mayurblog-app",
+      alt: "MayurBlog_App",
     },
-    
-  ]
+    // Add more projects here
+  ];
+
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen p-4"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -39,22 +40,20 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src,alt,href }) => (
+          {portfolios.map(({ id, src, href, alt }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
+                alt={alt}
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                 <a
-                   href={href}
-                   alt={alt}
-                  target="_blank"
-                  rel="noreferrer">
+                  href={href}
+                  className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 text-center"
+                >
                   Code
-                  </a>
-                </button>
+                </a>
               </div>
             </div>
           ))}
