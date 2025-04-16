@@ -21,7 +21,7 @@ const Projects = () => {
     {
       id: 3,
       src: MayurBlog_App,
-      href: "https://github.com/Mayur-Murarka/Mayurblog-app",
+      href: "https://blogapp-nu-one.vercel.app/",
       alt: "MayurBlog_App",
     },
     {
