@@ -8,7 +8,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Front Developer","Web Developer","Full Stack Developer","Mern Stack Developer"], 
+      strings: ["Front End Developer","Data Analyst","Web Developer","Full Stack Developer","Mern Stack Developer","Software Engineer","React Developer",], 
       startDelay: 100,
       typeSpeed: 50,
       backSpeed: 10,
@@ -30,13 +30,12 @@ const Home = () => {
     <h2 className="text-4xl sm:text--7xl font-bold text-white">I'm a <span ref={el}></span></h2>
     <p className="text-gray-300 py-4 max-w-md">
     I'm <b>Mayur Murarka.</b>
-    Currently, I love to work on Full Stack application using technologies like
-    React, Tailwind, Bootstrap, Node.js, Express.js, MongoDb,etc...
+    Currently, I love to work as Data Analyst and Mern Stack Developer.
     </p>
 
     <div>
-    <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex item-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-    Portfolio
+    <Link to="project" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex item-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+    Projects
     <span className="group-hover:rotate-90 duration-300">
     <MdOutlineKeyboardArrowRight size={25}
     className="ml-1"/>

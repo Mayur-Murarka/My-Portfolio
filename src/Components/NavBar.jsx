@@ -17,7 +17,7 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: 'portfolio',
+      link: 'projects',
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ const NavBar = () => {
   return (
     <div className="w-full h-20 flex justify-between items-center px-4 bg-gray-900 text-white">
       <div>
-        <h1 className="text-3xl font-bold">My Portfolio</h1>
+        <h1 className="text-4xl font-bold font-signature">Mayur</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (

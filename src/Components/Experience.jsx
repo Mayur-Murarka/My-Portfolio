@@ -11,6 +11,10 @@ import Bootstrap from "../assets/Bootstrap.png";
 import mongodb from "../assets/mongodb.png";
 import nextjs from "../assets/nextjs.jpg";
 import node from "../assets/node.png";
+import PowerBI from "../assets/PowerBI.png";
+import Excel from "../assets/Excel.png";
+import Python from "../assets/Python.png";
+import Pandas from "../assets/Pandas.png";
 
 const Experience = () => {
   const techs = [
@@ -103,16 +107,21 @@ const Experience = () => {
       src: Python,
       title: "Python",
       style: "shadow-blue-500",
+    }, 
+    {
+      id: 16,
+      src: Pandas,
+      title: "Pandas",
+      style: "shadow-violet-500",
     },
-
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen p-4"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white min-h-screen py-16"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full px-4">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Experience
@@ -120,14 +129,14 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-105 duration-500 py-3 rounded-lg ${style} flex flex-col items-center`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
-              <center><p className="m-4">{title}</p></center>
+              <img src={src} alt={title} className="w-16 h-16 object-contain" />
+              <p className="mt-3">{title}</p>
             </div>
           ))}
         </div>

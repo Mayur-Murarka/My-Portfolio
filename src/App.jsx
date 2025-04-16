@@ -4,7 +4,7 @@ import Contact from './Components/Contact';
 import Experience from './Components/Experience';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
-import Portfolio from './Components/Portfolio';
+import Projects from './Components/Projects';
 import SocialLinks from './Components/SocialLinks';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Home></Home>
       <SocialLinks></SocialLinks>
       <About></About>
-      <Portfolio></Portfolio>
+      <Projects></Projects>
       <Experience></Experience>
       <Contact></Contact>
     </>
