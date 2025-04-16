@@ -13,9 +13,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: Baatacheet,
-      href: "https://github.com/Mayur-Murarka/Baatacheet",
-      alt: "Baatacheet",
+      src: Ola_Booking,
+      href: "https://app.powerbi.com/links/tZyV0oeQic?ctid=7f2abf9f-2d23-493d-9abc-7a8a91780dee&pbi_source=linkShare",
+      alt: "Ola_Booking",
     },
     {
       id: 3,
@@ -23,7 +23,12 @@ const Portfolio = () => {
       href: "https://github.com/Mayur-Murarka/Mayurblog-app",
       alt: "MayurBlog_App",
     },
-    // Add more projects here
+    {
+      id: 4,
+      src: Electronic-Shop-Sales-Analysis,
+      href: "https://github.com/Mayur-Murarka/Electronic-Shop-Sales-Analysis",
+      alt: "Electronic-Shop-Sales-Analysis",
+    } 
   ];
 
   return (
@@ -52,7 +57,7 @@ const Portfolio = () => {
                   href={href}
                   className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 text-center"
                 >
-                  Code
+                  Link
                 </a>
               </div>
             </div>

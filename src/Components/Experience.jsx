@@ -86,6 +86,25 @@ const Experience = () => {
       title: "MongoDb",
       style: "shadow-green-500",
     },
+    {
+      id: 13,
+      src: PowerBI,
+      title: "Power BI",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 14,
+      src: Excel,
+      title: "Excel",
+      style: "shadow-green-500",
+    },
+    {
+      id: 15,
+      src: Python,
+      title: "Python",
+      style: "shadow-blue-500",
+    },
+
   ];
 
   return (
